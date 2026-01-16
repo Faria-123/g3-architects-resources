@@ -6,3 +6,64 @@
   font-weight: 400;
   font-style: normal;
 }
+.bgcolor{
+  background-color: rgba(255, 144, 14, 0.1);
+}
+
+
+.banner , .navbar{
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.display-flex{
+  display: flex;
+}
+.navbar{
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-item{
+  list-style: none;
+}
+.nav-link{
+  text-decoration: none;
+  font-size: 18px;
+}
+.nav-links{
+  gap: 10px;
+}
+/* dark-02 */
+.txt-gray{
+ color: #424242;
+}
+/* dark-03 */
+.text-light-gray{
+  color: #727272;
+}
+.brand{
+  font-size: 3rem;
+}
+.banner-container{
+  max-width: 862px;
+  margin: 0 auto;
+  text-align: center;
+}
+.img{
+  width: 100%;
+  margin-bottom: 2.8rem;
+}
+.btn{
+  font-size: 1.2rem;
+  color: white;
+  padding: 21px 25px;
+  margin: 3.1rem 0px;
+  background-color: #FF900E;
+  border-radius: 0.5rem;
+}
+
+
+@media screen and (max-width:576px){
+  .navbar,.nav-links{
+    flex-direction: column;
+  }
+}
